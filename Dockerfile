@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER Andrey Vakhrushev <v.andrew.465@gmail.com>
 
 RUN \
   apt-get update && \
