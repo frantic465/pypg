@@ -3,7 +3,7 @@ import unittest
 class TestBasic(unittest.TestCase):
 
     def test_one_equals_true(self):
-        self.assertEqual(True, 1)
+        self.assertEqual(True, 2)
 
     def test_true_one_is_not_true(self):
         self.assertFalse(1 is True)
